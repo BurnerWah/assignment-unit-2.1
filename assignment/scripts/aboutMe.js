@@ -105,6 +105,11 @@ console.log(petStatus)
 //      console.log `mostPets` after the conditional has run.
 // Typically I would just do this with sorting and slicing lists
 // Since it's a stretch thing I will do it with functional programming instead
+/**
+ * @param {number} a
+ * @param {number} b
+ * @returns {number}
+ */
 const greater = (a, b) => (a > b ? a : b)
 const mostPets = greater(pets, friendsPets)
 
