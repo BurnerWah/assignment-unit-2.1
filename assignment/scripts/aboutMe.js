@@ -1,3 +1,9 @@
+// Small note for reviewers
+// I have sorta picked up a habit of making every variable I can constant from
+// doing a lot of things with functional programming, so don't expect `let` to
+// show up too much.
+// I also use string formatting a lot. Got into that habit from Python probably
+
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 const firstName = "Jaden"
@@ -12,12 +18,16 @@ console.log(fullName)
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
+const luckyNumber = 20
+console.log(luckyNumber)
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
+const introduction = `My name is ${fullName} and I think ${luckyNumber} is a winner!`
+console.log(introduction)
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
