@@ -114,6 +114,8 @@ console.log(petStatus)
 //      console.log `luckyResult` after the conditional has run.
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+result = adventurous ? "Adventures are great!" : "How about we stay home?"
+console.log(result)
 
 // DO NOT MODIFY
 // Used for automated testing
